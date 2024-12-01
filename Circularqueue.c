@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#define N 50
+#define N 50 
 int front = -1, rear = -1, cq[N];
 void enqueue(int item, int size)
 {
